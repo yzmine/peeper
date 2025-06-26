@@ -1,14 +1,11 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const axios = require('axios');
 
-//invit link https://discord.com/oauth2/authorize?client_id=1387417859231187025&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.gg%2FS2QRcubB&integration_type=0&scope=bot+messages.read
-const DISCORD_TOKEN =
-  "MTM4NzQxNzg1OTIzMTE4NzAyNQ.G_BrRR.BemdIGNQoXCSxBYbSaUXpt3ODh9dmAqBKbYbmg";
-//const SPOTIFY_ACCESS_TOKEN ="BQAPU-IAQ58Z1DgAFmO6-QGn0uvrwFE7-wkl3ATfFx_zIZ8tGuVSGbz-WpS-j_fEG0iSMwGwF8TMQUvscXP0hiop0n5FH_pT7AfjHvcVLX9TK_TeoOQcSGDeKUi_f5EAFCuzsEqs3KilYJ1Ok4ry8ckrRIakjMbznyQuRZ8Bly7hADGqiA3q5mT7CfBqg1uyKufADzNjfbRAb4JiZlt7t72Kx8RZPeEXa95aB3uvR9674S0WdSBsDeDqvJJhhdnjRVv61xLHTezLICi9DokL8F_Ymdd3USb7Gz67Ajapitg";
-const CLIENT_ID = '331f42ca05f04bf09fb5a1be2454eb83';
-const CLIENT_SECRET = 'e8a31e2009b64838b6e778fd5eb9e31d';
-const REFRESH_TOKEN = 'AQAKg7vnJ1dsXNvks4eU1xFky0t8TRf6Gf7TKblLuM4Y4G6ixG-ckIRxnmiyOpEDE_YlIWUqG2JjJuNnPOu3mz0jqk8Y8MQ4lkqkNmrd8bJ7B1VdyXHLol6Jdbmt16povdw';
-const PLAYLIST_ID = '4DkImy9QRjRDHANy1NExAx'; 
+const DISCORD_TOKEN ="";
+const CLIENT_ID = '';
+const CLIENT_SECRET = '';
+const REFRESH_TOKEN = '';
+const PLAYLIST_ID = ''; 
 
 let accessToken = null;
 let isAwake = false; // Bot state toggle
