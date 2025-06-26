@@ -2,13 +2,14 @@
   "name": "peeper",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "description": "",
   "author": "",
   "license": "ISC",
-  "description": "",
+  "keywords": [],
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "axios": "^1.10.0",
     "discord.js": "^14.20.0",
@@ -17,7 +18,3 @@
     "open": "^10.1.2"
   }
 }
-"scripts": {
-  "start": "node index.js"
-}
-
